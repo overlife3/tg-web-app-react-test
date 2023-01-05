@@ -9,7 +9,7 @@ export function Header() {
 		<div className={"header"}>
 			<Button onClick={onClose}>Закрыть</Button>
 			<span className={"username"}>
-				{user?.first_name + " топ"}
+				{user?.username + " топ"}
 			</span>
 		</div>
 	)
