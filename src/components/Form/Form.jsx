@@ -21,7 +21,7 @@ export default function Form() {
 		} else {
 			tg.MainButton.show();
 		}
-	}, [country, street])
+	}, [country, street, tg])
 
 	const onChangeCountry = (e) => {
 		setCountry(e.target.value);
