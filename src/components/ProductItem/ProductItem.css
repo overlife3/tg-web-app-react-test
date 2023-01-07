@@ -9,7 +9,8 @@
 .img {
 	width: 100%;
 	background: lightgray;
-	grid-template: 100px;
+	/* grid-template: 100px; */
+	height: 100px;
 	margin: 0 auto;
 	background: var(--tg-theme-button-color);
 }
